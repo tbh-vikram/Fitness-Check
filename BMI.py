@@ -3,7 +3,7 @@ if WEIGHT >=0:
     HEIGHT= float(input("Enter your Height (in m): "))
     if HEIGHT >=0:
         BMI =  ( WEIGHT/(HEIGHT*HEIGHT))
-        print(BMI)
+        print("Your BMI is",BMI)
     else:
         print("Invalid Height")
 else:
